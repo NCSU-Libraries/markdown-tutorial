@@ -1,0 +1,123 @@
+---
+---
+
+body {
+  padding-bottom: 60px;
+  background: #fff;
+}
+
+h1.title {
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+img#logo {
+    width: 30%
+}
+
+/* Sets max image size to control overflow on images exercise*/
+img {
+  max-width: 350px;
+  max-height: 200px;
+}
+
+code {
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background: #d3d3d3;
+    color: #c7254e;
+    width: inherit;
+  }
+
+.navbar-default .navbar-nav>li>a {
+    color: #383838;
+}
+
+/* Adjust success button to match header background*/
+.btn-success {
+    color: #fff;
+    background-color: #c00;
+    border-color: #c00;
+}
+
+/*Adjust for button hover*/
+.btn-success:hover {
+    color: #fff;
+    background-color: #c00;
+    border-color: #c00;
+}
+/* Custom container */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.container > hr {
+  margin: 60px 0;
+}
+
+.navbar .center-nav,
+.navbar .center-nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+.navbar-inner {
+  border-radius: 0px;
+  padding-left: 0px;
+
+  .nav li a {
+    margin-top: 3px;
+  }
+}
+.navbar{
+  background: #c00;
+
+}
+
+/* This sets the header title size and color*/
+.nav h4 {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.nav li h4 a {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.nav li h4 a:hover {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+/*Align progress bar with site title*/
+ul#progress-bar {
+  margin-top: -50px;
+}
+/*Match text input size for render pad, add background*/
+.renderpad {
+border: none;
+width: 402px;
+height: 200px;
+background: #d3d3d3;
+margin-left: 30px;
+}
+
+xmp {
+  background: #f2f2f2;
+}
+/* Hides foundation tooltip, Bootstrap tooltip still visable*/
+.tooltip {
+  background: transparent;
+}

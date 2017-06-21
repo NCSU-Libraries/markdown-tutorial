@@ -1,0 +1,107 @@
+---
+layout: default
+title: Lists
+number: 6
+---
+
+<div class="row">
+<p>There are two types of lists in HTML, so there are also two in Markdown: unordered and ordered. An unordered list uses bullets and an ordered list uses numbers</p>
+<p>To create an unordered list, you'll want to preface each item in the list with
+  either an asterisk ( <code>*</code> ) or a dash (<code>-</code>) followed by a space and then the item on the list. Each list item also gets its own line. For example,
+  a grocery list in Markdown might look like this:</p>
+  <xmp>
+* Milk
+* Eggs
+* Salmon
+* Butter
+</xmp>
+<p>This Markdown list would render into the following bullet points:</p>
+<ul>
+  <li>Milk</li>
+  <li>Eggs</li>
+  <li>Salmon</li>
+  <li>Butter</li>
+</ul>
+<p>In the box below, turn the words separated by a comma into a list.</p>
+  <div class="col-md-5 scratchpad"></div>
+
+  <div class="col-md-5 renderpad"></div>
+</div>
+<button class="btn btn-default btn-skip">Skip</button>
+
+<div class="toBeRevealed">
+  <div class="row">
+  <hr>
+  <p>An ordered list is prefaced with numbers, instead of asterisks. Take a look at this recipe:</p>
+  <ol>
+    <li>Crack three eggs over a bowl</li>
+    <li>Pour a gallon of milk into the bowl</li>
+    <li>Rub the salmon vigorously with butter</li>
+    <li>Drop the salmon into the egg-milk bowl</li>
+  </ol>
+  <p>To write that in Markdown, you'd do this:</p>
+<xmp>
+1. Crack three eggs over a bowl
+2. Pour a gallon of milk into the bowl
+3. Rub the salmon vigorously with butter
+4. Drop the salmon into the egg-milk bowl
+</xmp>
+  <p>Easy, right? It's just like you'd expect a list to look.</p>
+  <p>In the box below, turn the rest of the recipe into an ordered list.</p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Skip</button>
+</div>
+
+<div class="toBeRevealed">
+  <div class="row">
+  <hr>
+  <p>Magnificent!</p>
+  <p>Occasionally, you might find the need to make a list with more depth, or, to
+  <em>nest</em> one list within another. Have no fear, because the Markdown syntax
+     is exactly the same. All you have to do is to remember to indent each asterisk
+     <em>one space more</em> than the preceding item.</p>
+  <p>For example, in the following list, we're going to add some sub-lists to each
+    "main" list item, describing the people in detail:</p>
+<xmp>
+* Tintin
+ * A reporter
+ * Has poofy orange hair
+ * Friends with the world's most awesome dog
+* Haddock
+ * A sea captain
+ * Has a fantastic beard
+ * Loves whiskey
+   * Possibly also scotch?
+</xmp>
+  <p>When rendered, this list turns into the following grouping:<p>
+<ul>
+  <li>Tintin<ul>
+    <li>A reporter</li>
+    <li>Has poofy orange hair</li>
+    <li>Friends with the world's most awesome dog</li>
+  </ul>
+  </li>
+  <li>Haddock<ul>
+    <li>A sea captain</li>
+    <li>Has a fantastic beard</li>
+    <li>Loves whiskey<ul>
+      <li>Possibly also scotch?</li>
+      </ul>
+      </li>
+    </ul>
+    </li>
+</ul>
+  <p>In the box below, turn the character's characteristics into sub-bullets.</p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Skip</button>
+</div>
+
+<div class="toBeRevealed">
+  <hr>
+  <p>You now know how to make lists in Markdown!</p>
+  <a class="btn btn-lg btn-success" href="{{ site.baseurl}}/lesson/7">On to the next lesson!</a>
+</div>
