@@ -22,7 +22,7 @@
     },
     3: {
       0: {
-        startingText: "Search for it.()",
+        startingText: "Search for it.",
         renderedAnswer: "<p><a href=\"http://www.google.com\">Search for it.</a></p>"
       },
       1: {
@@ -36,7 +36,7 @@
     },
     4: {
       0: {
-        startingText: "[](https://www.lib.ncsu.edu/sites/default/files/huntlibrary/gallery/exterior/The_Hunt_Library_at_Sunset.jpg)",
+        startingText: "[PLACE ALT TEXT HERE](https://www.lib.ncsu.edu/sites/default/files/huntlibrary/gallery/exterior/The_Hunt_Library_at_Sunset.jpg)",
         renderedAnswer: "<p><img src=\"https://www.lib.ncsu.edu/sites/default/files/huntlibrary/gallery/exterior/The_Hunt_Library_at_Sunset.jpg\" alt=\"An image of James B. Hunt Library\"></p>"
       }
     },
