@@ -52,8 +52,8 @@
         renderedAnswer: "<ul>\n<li>Flour</li>\n<li>Cheese</li>\n<li>Tomatoes</li>\n</ul>"
       },
       1: {
-        startingText: "Cut the cheese, Slice the tomatoes, Rub the tomatoes in flour",
-        renderedAnswer: "<ol>\n<li>Cut the cheese</li>\n<li>Slice the tomatoes</li>\n<li>Rub the tomatoes in flour</li>\n</ol>"
+        startingText: "Cut the cheese, Slice the tomatoes, Make a Sandwich",
+        renderedAnswer: "<ol>\n<li>Cut the cheese</li>\n<li>Slice the tomatoes</li>\n<li>Make a Sandwich</li>\n</ol>"
       },
       2: {
         startingText: "* Calculus, A professor, Has no hair, Often wears green\n* Castafiore, An opera singer, Has white hair",
