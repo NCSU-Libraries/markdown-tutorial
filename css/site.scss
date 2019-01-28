@@ -85,25 +85,22 @@ code {
 /* This sets the header title size and color*/
 .nav h4 {
     font-size: 1.5rem;
-    padding-left: 15px;
     color: #fff;
 }
 
 .nav li h4 a {
     font-size: 1.5rem;
-    padding-left: 15px;
     color: #fff;
 }
 
 .nav li h4 a:hover {
     font-size: 1.5rem;
-    padding-left: 15px;
     color: #fff;
     text-decoration: none;
 }
 /*Align progress bar with site title*/
 ul#progress-bar {
-  margin-top: -50px;
+  padding-top: 40px;
 }
 /*Match text input size for render pad, add background*/
 .renderpad {
