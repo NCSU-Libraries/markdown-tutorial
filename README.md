@@ -1,6 +1,6 @@
 # Markdown Tutorial
 
-A short markdown tutorial wrapped in an NCSU Libraries Jekyll Theme. The base code for the tutorial can be found here https://github.com/gjtorikian/markdowntutorial.com. It is intended to be used as a GitHub Project Page site. It is a mash up of a tutorial built by [Garen Torikian](https://github.com/gjtorikian) and the NCSU Libraries Jekyll template (https://github.ncsu.edu/tdstoffe/ncsu-jekyll-template).
+A short markdown tutorial wrapped in an NC State University Libraries Jekyll Theme. The base code for the tutorial can be found here https://github.com/gjtorikian/markdowntutorial.com. It is intended to be used as a GitHub Project Page site. It is a mash up of a tutorial built by [Garen Torikian](https://github.com/gjtorikian) and the NC State University Libraries Jekyll template (https://github.ncsu.edu/tdstoffe/ncsu-jekyll-template).
 
 ### Running Locally
 
@@ -16,5 +16,5 @@ jekyll serve
 * [Ace](https://github.com/ajaxorg/ace) for the code editors
 * [Marked](https://github.com/chjj/marked) for the Markdown conversion
 * [Bootstrap](http://twitter.github.io/bootstrap/) from the original tutorial's design
-* [Foundation](http://twitter.github.io/bootstrap/) from the NCSU Libraries Jekyll wrapper
+* [Foundation](http://twitter.github.io/bootstrap/) from the NC State University Libraries Jekyll wrapper
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome fonts

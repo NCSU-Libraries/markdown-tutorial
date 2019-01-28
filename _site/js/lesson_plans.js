@@ -26,8 +26,8 @@
         renderedAnswer: "<p><a href=\"http://www.google.com\">Search for it.</a></p>"
       },
       1: {
-        startingText: "The Latest News from NCSU Libraries",
-        renderedAnswer: "<h2><a href=\"http://www.lib.ncsu.edu/news\">The Latest News from NCSU Libraries</a></h2>"
+        startingText: "The Latest News from NC State University Libraries",
+        renderedAnswer: "<h2><a href=\"http://www.lib.ncsu.edu/news\">The Latest News from NC State University Libraries</a></h2>"
       },
       2: {
         startingText: "Do you want to know something about [the library][the-library]? What about something more specific, like [library hours][library-hours]?",
